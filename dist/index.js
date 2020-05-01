@@ -306,7 +306,7 @@ execAndLogStdOut('git fetch --no-tags --prune origin +refs/heads/*:refs/remotes/
 execAndLogStdOut('brew install swiftlint pkg-config')
 execAndLogStdOut('gem install pronto pronto-swiftlint')
 core.exportVariable('PRONTO_PULL_REQUEST_ID', prNum)
-core.exportVariable('PRONTO_GITHUB_ACCESS_TOKEN', core.getInput('github_token'))
+core.exportVariable('PRONTO_GITHUB_ACCESS_TOKEN', core.getInput('github-token'))
 execAndLogStdOut(`pronto run -c origin/${baseRef} -r swiftlint -f github_status github_pr`)
 
 
