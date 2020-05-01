@@ -1,0 +1,9 @@
+name: 'Lint swift code in a pull request'
+description: 'Lint swift code in a pull request using swiftlint and pronto'
+inputs:
+  github-token:
+    description: 'Github token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

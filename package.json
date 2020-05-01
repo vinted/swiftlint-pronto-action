@@ -1,0 +1,17 @@
+{
+  "name": "swiftlint-pronto-action",
+  "version": "1.0.0",
+  "description": "Lint swift code in a pull request using swiftlint and pronto",
+  "main": "src/index.js",
+  "keywords": [
+    "Actions",
+    "Github",
+    "Swiftlint",
+    "Pronto"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@actions/core": "^1.2.4",
+    "@zeit/ncc": "^0.22.1"
+  }
+}
